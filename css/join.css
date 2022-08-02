@@ -46,7 +46,7 @@
 }
 
 #joinsection #joinin .jpbg {
-    background-image: url(../images/spimg.png);
+    /* background-image: url(../images/spimg.png); */
     background-repeat: no-repeat;
     background-size: auto;
 }
@@ -64,6 +64,24 @@
     position: absolute;
     top: 0; left: 0;
 
+}
+#joinsection #joinin p {
+    overflow: hidden;
+}
+
+#joinsection #joinin .idname {
+    position: absolute;
+    top: 81px; left: 15px;
+}
+
+#joinsection #joinin .passno {
+    position: absolute;
+    top: 158px; left: 15px;
+}
+
+#joinsection #joinin .passagain {
+    position: absolute;
+    top: 238px; left: 15px;
 }
 
 #joinsection #joinin input:focus~span {
@@ -141,6 +159,19 @@
     top: 30px; left: 10px;
     border: 1px solid #ddd;
     background-color: #ddd;
+}
+
+#joinsection .checkb {
+    background-image: url(../images/none.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    /* appearance: none; */
+}
+
+#joinsection .checkb:checked {
+    background-image : url(../images/check.png);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 #joinsection #textarea {
