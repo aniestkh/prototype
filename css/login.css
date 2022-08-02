@@ -86,8 +86,17 @@
 
 }
 
+#loginsection #inner #sns a {
+    position: relative;
+}
 
 
+#loginsection #inner #sns #katalk+label {
+    width: 47px; height: 47px;
+    background-position: -52px -112px;
+    position: absolute;
+    top: 0; left: 0;
+}
 
 
 #loginsection #inner #sns button {
