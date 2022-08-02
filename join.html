@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹표준 퍼블리싱</title>
+    <script src="./js/prefixfree.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/join.css">
+    <!--[if lt IE9]>
+        <script src="./js/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<header id="header">
+    <div class="inner cf">
+        <h1><a href="/index.html"><img src="./images/logo.png" alt=""></a></h1>
+        <div class="membership">
+            <a href="/login.html">로그인</a> 
+            <a href="/join.html">회원가입</a>
+        </div>
+        <nav id="nav">
+            <ul class="depth1 cf">
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">블로그</a>
+                    <ul class="depth2">
+                        <li><a href="#">타일(기본형)</a></li>
+                        <li><a href="#">타일(기변형)</a></li>
+                        <li><a href="#">목록</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">제품소개</a>
+                    <ul class="depth2">
+                        <li><a href="#">타일(기본형)</a></li>
+                        <li><a href="#">타일(확대)</a></li>
+                        <li><a href="#">목록</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">갤러리</a>
+                    <ul class="depth2">
+                        <li><a href="#">타일(기본형)</a></li>
+                        <li><a href="#">타일(가변형)</a></li>
+                        <li><a href="#">슬라이드</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">문의하기</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="joinsection">
+    <article id="mainpage">
+        <h1>회원가입</h1>
+        <form action="#" method="post" autocomplete="off" id="joinin">
+            <p>
+                <input id="idname" class="jpbg style1" type="text" placeholder="아이디를 입력해 주세요">
+                <button type="submit">아이디 중복체크</button>
+                <label for="idname"></label>
+                <span >*아이디를 올바르게 입력해 주세요</span>
+            </p>
+            <p>
+                <input id="passno" class="jpbg style1" type="password" placeholder="비밀번호를 입력해 주세요">
+                <span>*특수문자, 숫자를 조합하여 8자 이상 입력해 주세요</span>
+                <label for="passno"></label>
+            </p>
+            <p>
+                <input id="passagain" class="jpbg style1" type="password" placeholder="비밀번호를 한번더 입력해 주세요">
+                <span>*비밀번호를 확인해 주세요</span>
+                <label for="passagain"></label>
+            </p>
+        </form>
+        <form action="#" method="post" autocomplete="off" id="more">
+            <h2>상세내용</h2>
+            <p><span>이름</span> 
+                <input id="name" class="jpbg style2" type="text" placeholder="이름을 입력하세요">
+                <label for="name"></label>
+            </p>
+            <p>
+                <span>성별</span>
+                <span class="gender">
+                    <input type="radio" name="gender" id="male"><label for="male">남성</label>
+                    <input type="radio" name="gender" id="female"><label for="female">여성</label>
+                </span>
+            </p>
+            <p><span>생년월일</span>
+                <select name="birthY" id="birthY">
+                    <option value="2000">2000년</option>
+                    <option value="1999">1999년</option>
+                    <option value="1998">1998년</option>
+                    <option value="1997">1997년</option>
+                </select>
+                <select name="birthM" id="birthM">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <select name="birthD" id="birthD">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+            </p>
+            <p><span>휴대폰</span>
+                <input type="text" class="style2">
+                <label for=""></label>
+            </p>
+            <p><span>이메일</span>
+                <input type="text" class="style2">
+                <label for=""></label>
+            </p>
+            <p><span>주소</span>
+                <input type="text" class="style2">
+                <label for=""></label>
+            </p>
+            <p class="portfolio"><span>포트폴리오</span>
+                <input type="file" class="style2">
+                <!-- <button>파일첨부</button> -->
+                <!-- <label for=""></label> -->
+            </p>
+            <p><span>자기소개</span>
+                <textarea name="" id="textarea" cols="39" rows="7" placeholder="잘 부탁드립니다."></textarea>
+            </p>
+            <p>
+                <input type="checkbox"><span>가입동의</span>
+            </p>
+        </form>
+        
+        <div id="btnin">
+            <form action="#" method="post">
+                <button type="submit">가입하기</button>
+                <button type="reset">취소</button>
+            </form>
+        </div>
+    </article>
+</section>
+
+<footer id="footer">
+    <div class="inner">
+        <div class="sns">
+            <a href="#"><span class="blind">페이스북</span><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><span class="blind">트위터</span><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><span class="blind">인스타그램</span><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><span class="blind">유튜브</span><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="contact">
+            <a href="tel:02-111-1111">전화번호 : (02) 111-1111</a>
+            <a href="mailto:gallerypiece@cafe24.com">이메일 주소 : gallerypiece@cafe24.com</a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

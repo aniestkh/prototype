@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+#loginsection {
+    padding-top: 106px;
+    background-color: #eef5fc;
+}
+
+#loginsection #inner {
+    margin: 0 auto;    
+    max-width: 1140px;
+    text-align: center;
+}
+
+#loginsection #logo {
+    font-size: 35px;
+    text-align: center;
+    color: #282866;
+    margin-bottom: 30px;
+}
+
+#loginsection #box {
+    padding-right: 123px;
+
+}
+
+#loginsection #box .inputbox {
+    position: relative;
+    width: 269px;
+    margin: 0 auto;
+}
+
+
+
+#loginsection .spimg {
+    background-repeat: no-repeat;
+    background-image: url(../images/spimg.png);
+    background-size: auto;
+    
+}
+
+#loginsection .inputbox input {
+    background-color: #c1d5c8;
+    padding: 15px 100px;
+    margin: 0 0 15px 0;
+    border: none;
+    font-size: 16px;
+}
+
+#loginsection #textin+label {
+    display: inline-block;
+    width: 20px; height: 20px;
+    background-position: -26px -73px;
+    position: absolute;
+    top: 13px; left: 15px;
+}
+
+#loginsection #passin+label {
+    display: inline-block;
+    width: 20px; height: 20px;
+    background-position: -47px -52px;
+    position: absolute;
+    top: 75px; left: 15px;
+}
+
+
+#loginsection #inner #box .btn {
+    background-color: #282866;
+    color: #fff;
+    font-size: 18px;
+    width: 395px;
+    padding: 13px 0px;
+    margin-bottom: 0 0 15px 0;
+    
+}
+
+#loginsection form {
+    position: relative;
+    margin: 20px 0;
+}
+
+#loginsection #sns form #kaka+label {
+    width: 47px; height: 47px;
+    background-position: -52px -112px;
+    position: absolute;
+    top: 10px; left: 10px;
+
+}
+
+
+
+
+
+#loginsection #inner #sns button {
+    width: 100px;
+    padding: 10px;
+    margin: 20px 10px;
+}
