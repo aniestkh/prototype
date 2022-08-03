@@ -1,14 +1,13 @@
 @charset "utf-8";
 
 #loginsection {
-    padding-top: 106px;
+    padding: 106px 0 10px;
     background-color: #eef5fc;
 }
 
-#loginsection #inner {
+#loginsection #loginner {
     margin: 0 auto;    
-    max-width: 1140px;
-    text-align: center;
+    max-width: 395px;
 }
 
 #loginsection #logo {
@@ -18,58 +17,80 @@
     margin-bottom: 30px;
 }
 
-#loginsection #box {
-    padding-right: 123px;
-
-}
-
 #loginsection #box .inputbox {
     position: relative;
-    width: 269px;
     margin: 0 auto;
 }
 
 
 
 #loginsection .spimg {
-    background-repeat: no-repeat;
     background-image: url(../images/spimg.png);
+    background-repeat: no-repeat;
     background-size: auto;
+    
+}
+
+#loginsection .inputbox {
+    max-width: 395px;
     
 }
 
 #loginsection .inputbox input {
     background-color: #c1d5c8;
-    padding: 15px 100px;
-    margin: 0 0 15px 0;
+    padding: 15px 20px 15px 50px;
+    margin: 0 0 15px;
     border: none;
+    width: 100%;
     font-size: 16px;
 }
 
-#loginsection #textin+label {
+/* 질문 */
+#loginsection #textin:focus #textin+label {
     display: inline-block;
     width: 20px; height: 20px;
     background-position: -26px -73px;
     position: absolute;
+    background-color: red;
+    top: 13px; left: 15px;
+}
+/*  */
+
+#loginsection #textin+label {
+    display: inline-block;
+    width: 20px; height: 20px;
+    background-position: -94px -73px;
+    position: absolute;
+    top: 13px; left: 15px;
+}
+
+#loginsection #textin:focus #textin+label {
+    display: inline-block;
+    width: 20px; height: 20px;
+    background-position: -74px -73px;
+    position: absolute;
+    background-color: red;
     top: 13px; left: 15px;
 }
 
 #loginsection #passin+label {
     display: inline-block;
-    width: 20px; height: 20px;
-    background-position: -47px -52px;
+    width: 20px;
+    height: 20px;
+    background-position: -115px -52px;
     position: absolute;
-    top: 75px; left: 15px;
+    top: 75px;
+    left: 15px;
 }
 
 
-#loginsection #inner #box .btn {
+#loginsection #loginner #box .btn {
     background-color: #282866;
     color: #fff;
     font-size: 18px;
-    width: 395px;
+    width: 100%;
     padding: 13px 0px;
-    margin-bottom: 0 0 15px 0;
+    cursor: pointer;
     
 }
 
@@ -78,35 +99,38 @@
     margin: 20px 0;
 }
 
-#loginsection #sns form #kaka+label {
-    width: 47px; height: 47px;
-    background-position: -52px -112px;
-    position: absolute;
-    top: 10px; left: 10px;
-
-}
-
-#loginsection #inner #sns a {
+#loginsection #loginner #sns form {
     position: relative;
+    margin-bottom: 65px;
 }
 
-
-#loginsection #inner #sns #katalk+label {
-    width: 47px; height: 47px;
+#loginsection #loginner #sns #katalk+label {
+    width: 47px;
+    height: 47px;
     background-position: -52px -112px;
     position: absolute;
-    top: 0; left: 0;
+    top: 15px;
+    left: 45px;
+    cursor: pointer;
 }
 
-#loginsection #inner #sns img{
-    padding: 0 35px;
-
+#loginsection #loginner #sns #nave+label {
+    width: 47px;
+    height: 47px;
+    background-position: -2px -112px;
+    position: absolute;
+    top: 15px;
+    left: 170px;
+    cursor: pointer;
 }
 
-
-
-#loginsection #inner #sns button {
-    width: 100px;
-    padding: 10px;
-    margin: 20px 10px;
+#loginsection #loginner #sns #face+label {
+    width: 47px;
+    height: 47px;
+    background-position: -102px -112px;
+    position: absolute;
+    top: 15px;
+    right: 55px;
+    cursor: pointer;
 }
+

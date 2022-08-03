@@ -58,92 +58,92 @@
         <h1>회원가입</h1>
         <form action="#" method="post" autocomplete="off" id="joinin">
             <p>
-                <input id="idname" class="jpbg style1" type="text" placeholder="아이디를 입력해 주세요">
+                <input id="idname" class="style1" type="text" placeholder="아이디를 입력해 주세요">
                 <button type="submit">아이디 중복체크</button>
-                <img class="idname" src="./images/human.png" alt="">
-                <label for="idname"></label>
+                <label class="jpbg" for="idname"></label>
                 <span >*아이디를 올바르게 입력해 주세요</span>
             </p>
             <p>
-                <input id="passno" class="jpbg style1" type="password" placeholder="비밀번호를 입력해 주세요">
+                <input id="passno" class="style1" type="password" placeholder="비밀번호를 입력해 주세요">
+                <!-- <img class="passno"    src="./images/lock.png" alt=""> -->
+                <label class="jpbg" for="passno"></label>
                 <span>*특수문자, 숫자를 조합하여 8자 이상 입력해 주세요</span>
-                <img class="passno"    src="./images/lock.png" alt="">
-                <label for="passno"></label>
             </p>
             <p>
-                <input id="passagain" class="jpbg style1" type="password" placeholder="비밀번호를 한번더 입력해 주세요">
+                <input id="passagain" class="style1" type="password" placeholder="비밀번호를 한번더 입력해 주세요">
+                <label class="jpbg" for="passagain"></label>
                 <span>*비밀번호를 확인해 주세요</span>
-                <img class="passagain" src="./images/lock.png" alt="">
-                <label for="passagain"></label>
             </p>
         </form>
         <form action="#" method="post" autocomplete="off" id="more">
             <h2>상세내용</h2>
             <p><span>이름</span> 
-                <input id="name" class="jpbg style2" type="text" placeholder="이름을 입력하세요">
-                <label for="name"></label>
+                <input id="name" class="style2" type="text" placeholder="이름을 입력하세요">
+                <label  for="name"></label>
             </p>
             <p>
                 <span>성별</span>
                 <span class="gender">
-                    <input type="radio" name="gender" id="male"><label for="male">남성</label>
-                    <input type="radio" name="gender" id="female"><label for="female">여성</label>
+                    <input type="radio" name="gender" id="male"><label  for="male">남성</label>
+                    <input type="radio" name="gender" id="female"><label  for="female">여성</label>
                 </span>
             </p>
             <p><span>생년월일</span>
-                <select name="birthY" id="birthY">
-                    <option value="2000">2000년</option>
-                    <option value="1999">1999년</option>
-                    <option value="1998">1998년</option>
-                    <option value="1997">1997년</option>
-                </select>
-                <select name="birthM" id="birthM">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                </select>
-                <select name="birthD" id="birthD">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                    <option value="7">7</option>
-                    <option value="8">8</option>
-                    <option value="9">9</option>
-                    <option value="10">10</option>
-                    <option value="11">11</option>
-                    <option value="12">12</option>
-                    <option value="13">13</option>
-                    <option value="14">14</option>
-                    <option value="15">15</option>
-                    <option value="16">16</option>
-                    <option value="17">17</option>
-                    <option value="18">18</option>
-                    <option value="19">19</option>
-                    <option value="20">20</option>
-                    <option value="21">21</option>
-                    <option value="22">22</option>
-                    <option value="23">23</option>
-                    <option value="24">24</option>
-                    <option value="25">25</option>
-                    <option value="26">26</option>
-                    <option value="27">27</option>
-                    <option value="28">28</option>
-                    <option value="29">29</option>
-                    <option value="30">30</option>
-                    <option value="31">31</option>
-                </select>
+                <span class="birth">
+                    <select name="birthY" id="birthY">
+                        <option value="2000">2000년</option>
+                        <option value="1999">1999년</option>
+                        <option value="1998">1998년</option>
+                        <option value="1997">1997년</option>
+                    </select>
+                    <select name="birthM" id="birthM">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                    <select name="birthD" id="birthD">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                </span>
             </p>
             <p><span>휴대폰</span>
                 <input type="text" class="style2">
@@ -166,7 +166,8 @@
                 <textarea name="" id="textarea" cols="39" rows="7" placeholder="잘 부탁드립니다."></textarea>
             </p>
             <p>
-                <input class="checkb" type="checkbox"><span>가입동의</span>
+                <input id="agree" class="checkb" type="checkbox">
+                <label class="jpbg" for="agree"></label><span>가입동의</span>
             </p>
         </form>
         
